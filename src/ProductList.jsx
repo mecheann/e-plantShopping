@@ -262,7 +262,7 @@ function ProductList({ onHomeClick }) {
         setAddedToCart((prevState) => ({
             ...prevState,
             [product.name]: true
-        }))
+        }));
     }
 
     return (
